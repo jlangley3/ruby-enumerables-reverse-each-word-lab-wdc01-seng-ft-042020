@@ -3,3 +3,4 @@ def  reverse_each_word(sentence)
     word = a <=> b
     puts word
   end
+end
