@@ -1,7 +1,7 @@
 def  reverse_each_word(sentence)
  
 words = sentence.split
-  new_sentence = []
+  
 
      words.collect do |word| 
     end_loop = word.length
@@ -10,9 +10,9 @@ words = sentence.split
 			end_loop -= 1
 			new_string += word[end_loop] #Reversing every letter of each word
 		end
-		new_sentence << new_string
+		 new_string
   
 end
-new_sentence.join(" ")
+new_string.join(" ")
 puts new_sentence
 end
