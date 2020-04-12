@@ -10,9 +10,9 @@ words = sentence.split
 			end_loop -= 1
 			new_string += word[end_loop] #Reversing every letter of each word
 		end
-		 new_string
+		words << new_string
   
 end
-new_string.join(" ")
+new_sentence.join(" ")
 puts new_sentence
 end
