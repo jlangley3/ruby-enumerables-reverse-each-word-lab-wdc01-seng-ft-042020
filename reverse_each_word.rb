@@ -8,9 +8,9 @@ words = sentence.split
 		new_string = ''
 		while last_letter > 0
 			last_letter -= 1
-			new_string += (word[last_letter] + " ")#Reversing every letter of each word
+			new_string += word[last_letter]#Reversing every letter of each word
 		end
-		new_sentence += new_string
+		new_sentence += (new_string + " ")
   
 end
 new_sentence.split(" ")
