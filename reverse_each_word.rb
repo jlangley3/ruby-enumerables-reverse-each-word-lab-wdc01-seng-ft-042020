@@ -1,16 +1,18 @@
 def  reverse_each_word(sentence)
-  new_sentence = sentence.split
-  new_sentence.each do |word| 
-    word.collect do |word|
-      end_letter = word.length 
-      new_string = ""
-      while end_letter > 0 
-      end_letter -= 1 
-      new_string += word[end_letter]
-    end
-    
-  end
+ 
+words = sentence.split
+  new_sentence = []
+
+     words.each do |word| 
+    end_loop = word.length
+		new_string = ''
+		while end_loop > 0
+			end_loop -= 1
+			new_string += word[end_loop] #Reversing every letter of each word
+		end
+		new_sentence << new_string
   
 end
 new_sentence.join(" ")
+puts new_sentence
 end
