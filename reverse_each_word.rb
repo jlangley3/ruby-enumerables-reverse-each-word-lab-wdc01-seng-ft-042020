@@ -5,6 +5,7 @@ def  reverse_each_word(sentence)
       letter 
     
   end
-  new_sentence.join(" ")
+  
 end
+new_sentence.join(" ")
 end
