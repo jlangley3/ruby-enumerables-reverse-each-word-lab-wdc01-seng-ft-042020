@@ -4,11 +4,11 @@ words = sentence.split
   new_sentence = ""
 
      words.collect do |word| 
-    end_loop = word.length
+    last_letter = word.length
 		new_string = ''
-		while end_loop > 0
-			end_loop -= 1
-			new_string += word[end_loop] #Reversing every letter of each word
+		while last_letter > 0
+			last_letter -= 1
+			new_string += (word[last_letter] + "")#Reversing every letter of each word
 		end
 		new_sentence += new_string
   
