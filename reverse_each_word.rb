@@ -12,9 +12,9 @@ words = sentence.split
 		end
 		new_sentence << new_string
 		#new_sentence += (new_string)
-  
+  new_sentence.join(" ")
 end
-new_sentence.join(" ")
+#new_sentence.join(" ")
 
 new_sentence
 end
