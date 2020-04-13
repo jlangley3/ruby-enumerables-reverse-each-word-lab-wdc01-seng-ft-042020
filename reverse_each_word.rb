@@ -14,7 +14,7 @@ words = sentence.split
 		#new_sentence += (new_string)
   new_sentence.join(" ")
 end
-new_sentence.join(" ")
+final_sentence = new_sentence.join(" ")
 
-new_sentence
+final_sentence
 end
