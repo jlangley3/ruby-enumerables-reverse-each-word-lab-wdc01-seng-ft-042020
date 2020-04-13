@@ -10,7 +10,7 @@ words = sentence.split
 			last_letter -= 1
 			new_string += word[last_letter]#Reversing every letter of each word
 		end
-		new_sentence += (new_string\n)
+		new_sentence += (new_string + " " )
   
 end
 new_sentence.split(" ")
