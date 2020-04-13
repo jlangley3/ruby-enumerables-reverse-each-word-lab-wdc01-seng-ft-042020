@@ -1,7 +1,7 @@
 def  reverse_each_word(sentence)
  
 words = sentence.split
-  new_sentence = " "
+  new_sentence = ""
 
      words.collect do |word| 
     last_letter = word.length
