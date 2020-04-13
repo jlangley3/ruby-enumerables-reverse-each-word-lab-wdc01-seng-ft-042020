@@ -16,5 +16,5 @@ words = sentence.split
 end
 #new_sentence.join(" ")
 
-p new_sentence
+puts new_sentence
 end
